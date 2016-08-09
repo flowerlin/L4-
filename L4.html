@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Table 表格</title>
+</head>
+<body>
+    <table>
+      <!-- 輸入按TAB叫出表格 -->
+      <thead>
+        <!-- 表格的頭（第一列） -->
+        <tr>
+          <!-- 第一列的內容 -->
+          <th>小鮮肉編號</th>
+          <!-- 第一格的內容 -->
+          <th>小鮮肉姓名</th>
+          <!-- 第二格的內容 -->
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 表格的身體 -->
+        <tr>
+          <!-- 第二列的內容 -->
+          <td>01</td>
+          <!-- 第一格的值 -->
+          <td>Adam</td>
+          <!-- 第二格的值 -->
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>小鮮肉邀約表單</h1>
+    <!-- 標題 -->
+    <form>
+      <!-- 輸入按TAB叫出表單 -->
+      <input type="text" placeholder="請輸入喜歡的小鮮肉">
+      <!-- 輸入input:text再按tab -->
+      <br>
+      <input type="password" placeholder="請輸入密碼">
+      <!-- 輸入input:password再按tab -->
+      <br>
+      <input type="button" value="確認送出">
+      <!-- 輸入input:button再按tab  在前端處理資料 -->
+      <!-- 輸入input:submit再按tab  會把資料送到後端  網址會帶出？和後面一串 -->
+
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table>
+      <thead>
+        <tr>
+          <th>午餐吃什麼</th>
+          <th>提議人</th>
+          <th>投票</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>早餐店</td>
+          <td>小花</td>
+          <td>1</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+
+    <select name="user">
+      <option value="1">使用者1</option>
+      <option value="2">使用者2</option>
+      <option value="3">使用者3</option>
+    </select>
+    <!-- select按下tab，下拉式選單 -->
+    <!-- 中間輸入option按下tab，下拉式選單的內容，文字要輸入在><中間 -->
+
+    <form>
+      <input type="text" placeholder="帳號">
+      <input type="password" placeholder="密碼">
+      <input type="button" value="登入">
+    </form>
+
+    <input type="radio" name="TEST">我同意使用條款
+    <br>
+    <input type="radio" name="TEST">我不同意使用條款
+    <!-- input:radio按下tab，單選圈圈，name取一樣表示同一群組 -->
+
+    <br>
+    <input type="checkbox" name="ask">我願意收到推銷email
+    <br>
+    <input type="checkbox" name="ask">我願意資料作為行銷使用
+    <!-- input:checkbox按下tab，可複選的框框，name取一樣表示同一群組 -->
+    <br>
+    <textarea name="write" id="" cols="100" rows="5"></textarea>
+    <!-- textarea按下tab，輸入文字筐，欄和列的值可以改 -->
+
+    <br>
+
+    <h1 class="test1">我想放假</h1>
+    <!-- h1.test1按下tab，會產生h1及test1的class名稱，class用途為之後語法管理 -->
+    <h1 id="test2">我超級想放假</h1>
+    <!-- h1#test2按下tab，會產生h1和test2的id名稱，id用途為之後語法管理 -->
+
+    <br>
+
+    <div class="container">
+      <p>這一段程式終於初步瞭解了，接下來還有<span id="many">好多好多</span>啊</p>
+    </div>
+    <!-- div用來包大元素，span用來包小元素，通常搭配class或id來命名區分 -->
+
+</body>
+</html>
